@@ -9,7 +9,7 @@ app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # Konfiguracja Azure Cosmos DB
 url = 'https://zadanie7.documents.azure.com:443/'
-key = 'Ljt5QNPkZmAr2opfycxBLyfypj5OKTtVGDoN6jOGCV270cu4ov0PHNapptl1Piapx56vNGd1rPokACDbmKJBeQ=='
+key = 'qVxRgaXEpiwLCbNKZbA7fdqd2E6ZWgEFtBuH6rBkBaLTlUyA34RattweaFeXOGHq6VRPm3TNxsKqACDbRm2jwA=='
 client = CosmosClient(url, credential=key)
 database_name = 'zadanie7'
 container_name = 'Uploads'
