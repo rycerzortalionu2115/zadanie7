@@ -4,7 +4,6 @@ import os
 import uuid
 from datetime import datetime
 
-
 app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
@@ -13,7 +12,7 @@ url = 'https://szef.documents.azure.com:443/'
 key = 'qVxRgaXEpiwLCbNKZbA7fdqd2E6ZWgEFtBuH6rBkBaLTlUyA34RattweaFeXOGHq6VRPm3TNxsKqACDbRm2jwA=='
 client = CosmosClient(url, credential=key)
 database_name = 'zadanie7'
-container_name = 'zadanie7'
+container_name = 'Uploads'
 database = client.get_database_client(database_name)
 container = database.get_container_client(container_name)
 
