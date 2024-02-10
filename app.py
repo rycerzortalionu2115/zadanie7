@@ -8,7 +8,7 @@ app = Flask(__name__)
 app.config['UPLOAD_FOLDER'] = 'uploads'
 
 # Konfiguracja Azure Cosmos DB
-url = 'https://zadanie7.documents.azure.com:443/'
+url = 'https://szef.documents.azure.com:443/'
 key = 'qVxRgaXEpiwLCbNKZbA7fdqd2E6ZWgEFtBuH6rBkBaLTlUyA34RattweaFeXOGHq6VRPm3TNxsKqACDbRm2jwA=='
 client = CosmosClient(url, credential=key)
 database_name = 'zadanie7'
